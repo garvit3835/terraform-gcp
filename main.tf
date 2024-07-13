@@ -1,4 +1,5 @@
 provider "google" {
+  # credentials = jsondecode(var.google_credentials)
   project = "analog-foundry-418510"
   region  = "us-central1"
 }
