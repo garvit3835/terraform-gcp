@@ -5,7 +5,6 @@ provider "google" {
 }
 
 resource "google_storage_bucket" "my_bucket" {
-  count = 2
   name     = "my-infrasity-bucket-1189"
   location = "US"
 }
